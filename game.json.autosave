@@ -199,6 +199,24 @@
         "name": "sprites/tiles/tile_05.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/tiles/tile_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/tiles/tile_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/gui/icon_life.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites/gui/icon_life.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -231,7 +249,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.472
+        "zoomFactor": 0.034
       },
       "objectsGroups": [],
       "variables": [],
@@ -239,12 +257,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 576,
-          "layer": "",
+          "height": 32,
+          "layer": "game",
           "locked": false,
           "name": "ChaoSuperior",
-          "width": 192,
-          "x": -128,
+          "width": 3200,
+          "x": -3136,
           "y": 0,
           "zOrder": 1,
           "numberProperties": [],
@@ -255,11 +273,11 @@
           "angle": 0,
           "customSize": true,
           "height": 576,
-          "layer": "",
+          "layer": "game",
           "locked": false,
           "name": "ChaoInterno",
-          "width": 192,
-          "x": -128,
+          "width": 3200,
+          "x": -3136,
           "y": 32,
           "zOrder": 2,
           "numberProperties": [],
@@ -270,7 +288,7 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "",
+          "layer": "game",
           "locked": false,
           "name": "ChaoSuperior",
           "width": 192,
@@ -285,7 +303,7 @@
           "angle": 0,
           "customSize": true,
           "height": 320,
-          "layer": "",
+          "layer": "game",
           "locked": false,
           "name": "ChaoInterno",
           "width": 192,
@@ -300,7 +318,7 @@
           "angle": 0,
           "customSize": true,
           "height": 320,
-          "layer": "",
+          "layer": "game",
           "locked": false,
           "name": "ChaoInterno",
           "width": 192,
@@ -315,7 +333,7 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "",
+          "layer": "game",
           "locked": false,
           "name": "ChaoSuperior",
           "width": 192,
@@ -330,7 +348,7 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "",
+          "layer": "game",
           "locked": false,
           "name": "ChaoSuperior",
           "width": 192,
@@ -345,7 +363,7 @@
           "angle": 0,
           "customSize": true,
           "height": 320,
-          "layer": "",
+          "layer": "game",
           "locked": false,
           "name": "ChaoInterno",
           "width": 192,
@@ -360,13 +378,343 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "game",
           "locked": false,
           "name": "Player",
           "width": 0,
           "x": 71,
           "y": 65,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 415,
+          "y": 101,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 931,
+          "y": 192,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1054,
+          "y": 145,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1151,
+          "y": 94,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1067,
+          "y": -6,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 907,
+          "y": -34,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 732,
+          "y": 15,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 548,
+          "y": 66,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1247,
+          "y": 108,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1344,
+          "y": 135,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1217,
+          "y": -181,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1530.19,
+          "y": 218.619,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1434,
+          "y": 182,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1704,
+          "y": -13,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1607,
+          "y": -40,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1511,
+          "y": -77,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1421,
+          "y": -124,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1324,
+          "y": -151,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1806,
+          "y": 79,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1722,
+          "y": 136,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game",
+          "locked": false,
+          "name": "Elevator",
+          "width": 0,
+          "x": 1624,
+          "y": 185,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "gui",
+          "locked": false,
+          "name": "Gui",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -381,6 +729,8 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -390,10 +740,8 @@
               "jumpSustainTime": 0.2,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
@@ -433,11 +781,11 @@
                             "y": 77
                           },
                           {
-                            "x": 63,
+                            "x": 67,
                             "y": 105
                           },
                           {
-                            "x": 35,
+                            "x": 19,
                             "y": 105
                           },
                           {
@@ -481,11 +829,11 @@
                             "y": 77
                           },
                           {
-                            "x": 63,
+                            "x": 67,
                             "y": 105
                           },
                           {
-                            "x": 35,
+                            "x": 19,
                             "y": 105
                           },
                           {
@@ -529,11 +877,11 @@
                             "y": 77
                           },
                           {
-                            "x": 63,
+                            "x": 67,
                             "y": 105
                           },
                           {
-                            "x": 35,
+                            "x": 19,
                             "y": 105
                           },
                           {
@@ -577,11 +925,11 @@
                             "y": 77
                           },
                           {
-                            "x": 63,
+                            "x": 67,
                             "y": 105
                           },
                           {
-                            "x": 35,
+                            "x": 19,
                             "y": 105
                           },
                           {
@@ -629,12 +977,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 29.5,
-                            "y": 37
+                            "x": 29,
+                            "y": 24
                           },
                           {
-                            "x": 61.5,
-                            "y": 37
+                            "x": 52,
+                            "y": 26
                           },
                           {
                             "x": 75,
@@ -665,12 +1013,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 29.5,
-                            "y": 37
+                            "x": 29,
+                            "y": 24
                           },
                           {
-                            "x": 61.5,
-                            "y": 37
+                            "x": 52,
+                            "y": 26
                           },
                           {
                             "x": 75,
@@ -701,12 +1049,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 29.5,
-                            "y": 37
+                            "x": 29,
+                            "y": 24
                           },
                           {
-                            "x": 61.5,
-                            "y": 37
+                            "x": 52,
+                            "y": 26
                           },
                           {
                             "x": 75,
@@ -737,12 +1085,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 29.5,
-                            "y": 37
+                            "x": 29,
+                            "y": 24
                           },
                           {
-                            "x": 61.5,
-                            "y": 37
+                            "x": 52,
+                            "y": 26
                           },
                           {
                             "x": 75,
@@ -793,7 +1141,7 @@
                             "y": 24
                           },
                           {
-                            "x": 63,
+                            "x": 59,
                             "y": 94
                           },
                           {
@@ -841,8 +1189,8 @@
                             "y": 19
                           },
                           {
-                            "x": 59,
-                            "y": 93
+                            "x": 64,
+                            "y": 105
                           },
                           {
                             "x": 29,
@@ -867,10 +1215,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -885,11 +1233,68 @@
           "variables": [],
           "behaviors": [
             {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Elevator",
+          "tags": "",
+          "texture": "sprites/tiles/tile_06.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": [
+            {
               "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
+              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "Gui",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites/gui/icon_life.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -928,12 +1333,27 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Pulando",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::IsOnFloor"
+                "value": "PlatformBehavior::IsJumping"
               },
               "parameters": [
                 "Player",
@@ -942,60 +1362,20 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::IsJumping"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Up"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Jumping\""
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"Jumping\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -1009,7 +1389,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Jumping",
+          "comment": "Player Caindo",
           "comment2": ""
         },
         {
@@ -1043,6 +1423,21 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Parado",
+          "comment2": ""
         },
         {
           "disabled": false,
@@ -1132,6 +1527,21 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Teclas",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1192,6 +1602,44 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Camera que acompanha o Player",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "\"game\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -1210,6 +1658,30 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "name": "foreground",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "game",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "gui",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
